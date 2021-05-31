@@ -81,21 +81,21 @@ details {padding : 1rem; white-space: pre-wrap;}
       <h4>2. employee_id가 100번대이고 department_id가 100미만인 직원들의 employee_id와 start_date, department_id를 구하여라.</h4>
      
      <details>
-            <summary>모범 답안</summary>
-            <strong>select</strong> employee_id, start_date, department_id 
-            <strong>from</strong> job_history
-            <strong>where </strong> department_id <strong> < </strong> '100'
-            <strong>and </strong> employee_id <strong>between </strong> '100' </strong> and </strong> '200'
+                                                <summary>모범 답안</summary>
+                                                <strong>select</strong> employee_id, start_date, department_id 
+                                                <strong>from</strong> job_history
+                                                <strong>where </strong> department_id <strong> < </strong> '100'
+                                                <strong>and </strong> employee_id <strong>between </strong> '100' </strong> and </strong> '200'
 
-            EMPLOYEE_ID START_DA DEPARTMENT_ID
-            ----------- -------- -------------
-                    114 06/03/24            50
-                    122 07/01/01            50
-                    102 01/01/13            60
-                    176 06/03/24            80
-                    176 07/01/01            80
-                    200 95/09/17            90
-                    200 02/07/01            90
+                                                EMPLOYEE_ID START_DA DEPARTMENT_ID
+                                                ----------- -------- -------------
+                                                        114 06/03/24            50
+                                                        122 07/01/01            50
+                                                        102 01/01/13            60
+                                                        176 06/03/24            80
+                                                        176 07/01/01            80
+                                                        200 95/09/17            90
+                                                        200 02/07/01            90
       
       </details>
 </div>
